@@ -11,8 +11,7 @@
     "esModuleInterop": true,
     "sourceMap": true,
     "skipLibCheck": true
-    // "noImplicitAny": false
   },
   "include": ["src/**/*.ts", "src/index.ts"],
-  "exclude": ["node_modules/**/*", "src/**/*.test.ts*", "**/integration-tests"]
+  "exclude": ["node_modules/**/*", "src/**/*.test.ts*"]
 }

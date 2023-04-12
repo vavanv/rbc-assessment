@@ -1,0 +1,7 @@
+{
+  "resetMocks": true,
+  "testEnvironment": "node",
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  }
+}
