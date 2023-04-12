@@ -1,0 +1,32 @@
+
+###
+GET http://localhost:8081
+
+
+###
+GET http://localhost:8081/url_doesnot_exist
+
+
+###
+GET http://localhost:8081/schedule
+
+###
+GET http://localhost:8081/schedule/line_doesnot_exist
+
+###
+GET http://localhost:8081/schedule/Bloomington
+
+###
+GET http://localhost:8081/schedule/Gormley
+
+###
+GET http://localhost:8081/schedule/Bloomington?departure=1600
+
+###
+GET http://localhost:8081/schedule/Bloomington?departure=04:00pm
+
+
+###
+GET http://localhost:8081/schedule/Gormley?departure=1800
+
+

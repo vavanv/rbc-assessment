@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "lib": ["es6", "dom"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "removeComments": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "skipLibCheck": true
+    // "noImplicitAny": false
+  },
+  "include": ["src/**/*.ts", "src/index.ts"],
+  "exclude": ["node_modules/**/*", "src/**/*.test.ts*", "**/integration-tests"]
+}
