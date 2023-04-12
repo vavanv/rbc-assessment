@@ -25,6 +25,17 @@ GET http://localhost:8081/schedule/Bloomington?departure=1600
 ###
 GET http://localhost:8081/schedule/Bloomington?departure=04:00pm
 
+###
+GET http://localhost:8081/schedule/Bloomington?departure=4:00pm
+
+###
+GET http://localhost:8081/schedule/Bloomington?departure=24:00pm
+
+###
+GET http://localhost:8081/schedule/Bloomington?departure=0000
+
+###
+GET http://localhost:8081/schedule/Gormley?departure=2800
 
 ###
 GET http://localhost:8081/schedule/Gormley?departure=1800

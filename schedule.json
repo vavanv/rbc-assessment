@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "line": "Lakeshore",
+    "departure": 800,
+    "arrival": 900
+  },
+  {
+    "id": 2,
+    "line": "Lakeshore",
+    "departure": 1000,
+    "arrival": 1100
+  },
+  {
+    "id": 3,
+    "line": "Lakeshore",
+    "departure": 1200,
+    "arrival": 1300
+  },
+  {
+    "id": 4,
+    "line": "Langstaff",
+    "departure": 800,
+    "arrival": 900
+  },
+  {
+    "id": 5,
+    "line": "Langstaff",
+    "departure": 1000,
+    "arrival": 1100
+  },
+  {
+    "id": 6,
+    "line": "Langstaff",
+    "departure": 1200,
+    "arrival": 1300
+  },
+  {
+    "id": 7,
+    "line": "Gormley",
+    "departure": 800,
+    "arrival": 900
+  },
+  {
+    "id": 8,
+    "line": "Gormley",
+    "departure": 1000,
+    "arrival": 1100
+  },
+  {
+    "id": 8,
+    "line": "Gormley",
+    "departure": 1200,
+    "arrival": 1300
+  },
+  {
+    "id": 10,
+    "line": "Bloomington",
+    "departure": 1400,
+    "arrival": 1500
+  },
+  {
+    "id": 11,
+    "line": "Bloomington",
+    "departure": 1600,
+    "arrival": 1700
+  },
+  {
+    "id": 12,
+    "line": "Bloomington",
+    "departure": 1800,
+    "arrival": 1900
+  }
+]
