@@ -20,8 +20,8 @@ expected 'Make sure url is correct!'
 
 GET http://localhost:8081/schedule
 
-expected 200 OK
-and result
+expected
+200 OK
 [
 {
 "id": 1,
@@ -36,13 +36,15 @@ and result
 
 GET http://localhost:8081/schedule/line_doesnot_exist
 
-expected 400 Not Found
+expected
+400 Not Found
 
 ###
 
 GET http://localhost:8081/schedule/Bloomington
 
-expected 200 OK
+expected
+200 OK
 
 [
 {
