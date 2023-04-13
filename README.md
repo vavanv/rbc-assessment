@@ -4,19 +4,15 @@ schedule timetable located in schedule.json file
 
 ## test cases
 
-### `GET http://localhost:8081`
+### GET http://localhost:8081
 
 expected 'App up and running'
 
-###
-
-GET http://localhost:8081/url_doesnot_exist
+### GET http://localhost:8081/url_doesnot_exist
 
 expected 'Make sure url is correct!'
 
-###
-
-GET http://localhost:8081/schedule
+### GET http://localhost:8081/schedule
 
 expected
 200 OK
@@ -30,16 +26,12 @@ expected
 ...
 ]
 
-###
-
-GET http://localhost:8081/schedule/line_doesnot_exist
+### GET http://localhost:8081/schedule/line_doesnot_exist
 
 expected
 400 Not Found
 
-###
-
-GET http://localhost:8081/schedule/Bloomington
+### GET http://localhost:8081/schedule/Bloomington
 
 expected
 200 OK
@@ -65,9 +57,7 @@ expected
 }
 ]
 
-###
-
-GET http://localhost:8081/schedule/Gormley
+### GET http://localhost:8081/schedule/Gormley
 
 expected
 200 OK
@@ -92,9 +82,7 @@ expected
 }
 ]
 
-###
-
-GET http://localhost:8081/schedule/Bloomington?departure=1600
+### GET http://localhost:8081/schedule/Bloomington?departure=1600
 expected
 200 OK
 [
@@ -106,9 +94,7 @@ expected
 }
 ]
 
-###
-
-GET http://localhost:8081/schedule/Bloomington?departure=04:00pm
+### GET http://localhost:8081/schedule/Bloomington?departure=04:00pm
 expected
 200 OK
 [
@@ -120,9 +106,7 @@ expected
 }
 ]
 
-###
-
-GET http://localhost:8081/schedule/Bloomington?departure=4:00pm
+### GET http://localhost:8081/schedule/Bloomington?departure=4:00pm
 expected
 200 OK
 [
@@ -134,31 +118,23 @@ expected
 }
 ]
 
-###
-
-GET http://localhost:8081/schedule/Bloomington?departure=24:00pm
+### GET http://localhost:8081/schedule/Bloomington?departure=24:00pm
 
 expected
 400 Bad Request
 
-###
-
-GET http://localhost:8081/schedule/Bloomington?departure=0000
+### GET http://localhost:8081/schedule/Bloomington?departure=0000
 
 expected
 200 OK
 []
 
-###
-
-GET http://localhost:8081/schedule/Gormley?departure=2800
+### GET http://localhost:8081/schedule/Gormley?departure=2800
 
 expected
 400 Bad Request
 
-###
-
-GET http://localhost:8081/schedule/Gormley?departure=1800
+### GET http://localhost:8081/schedule/Gormley?departure=1800
 
 expected
 200 OK
