@@ -4,7 +4,7 @@ schedule timetable located in schedule.json file
 
 ## test cases
 
-### GET http://localhost:8081
+### `GET http://localhost:8081`
 
 expected 'App up and running'
 
