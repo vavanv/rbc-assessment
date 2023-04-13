@@ -83,6 +83,7 @@ expected
 ]
 
 ### GET http://localhost:8081/schedule/Bloomington?departure=1600
+
 expected
 200 OK
 [
@@ -95,6 +96,7 @@ expected
 ]
 
 ### GET http://localhost:8081/schedule/Bloomington?departure=04:00pm
+
 expected
 200 OK
 [
@@ -107,6 +109,7 @@ expected
 ]
 
 ### GET http://localhost:8081/schedule/Bloomington?departure=4:00pm
+
 expected
 200 OK
 [
@@ -139,3 +142,8 @@ expected
 expected
 200 OK
 []
+
+## caching
+
+I would go with https://github.com/node-cache/node-cache easy and straightforward,
+but in the 'real life' implementation I'd prefer Redis in-memory database
